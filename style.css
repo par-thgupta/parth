@@ -1,0 +1,39 @@
+body {
+    background: #d4d648;
+    background: -webkit-linear-gradient(to right, #e3e7a0, #b0da1a);
+    background: linear-gradient(to right, #e3e7a0, #b0da1a);
+}
+.head{
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border-radius: 30px;
+    background-image:url("./images/mac.avif");
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content:space-around;
+}
+#ok{
+    margin-top: 20vh;
+    color: white;
+    font-size: 50px;
+}
+
+img {
+    padding: 15px;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
